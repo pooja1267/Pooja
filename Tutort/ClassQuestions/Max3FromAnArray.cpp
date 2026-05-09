@@ -17,7 +17,7 @@ int main()
             third=second;
             second=i;
         }
-        else if(i>third && i!=second)
+        else if(i>third && i!=second && i!=first)
         {
             third=i;
         }
