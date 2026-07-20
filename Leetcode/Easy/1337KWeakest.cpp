@@ -10,7 +10,7 @@ public:
             rowSoldierMap[i] = sum;
         }
 #if 0
-        for(auto i : rowSoldierMap)
+         for(auto i : rowSoldierMap)
             cout<< i.first<<"\t"<<i.second<<"\n";
 #endif
         auto comp = [](pair<int,int> &a, pair<int,int> &b) { if(a.second != b.second)
